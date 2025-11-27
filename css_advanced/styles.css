@@ -140,3 +140,36 @@ nav img{
         gap: 30px;
     }
 }
+.testimony {
+    background-color: #C271FF;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 40px;
+}
+.testimony-img img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimony-content {
+    max-width: 600px;
+    color: white;
+}
+.testimony-content blockquote {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.testimony-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.testimony-content p {
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 5px;
+}
