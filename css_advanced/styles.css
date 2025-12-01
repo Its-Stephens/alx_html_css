@@ -173,3 +173,92 @@ nav img{
     opacity: 0.8;
     margin-top: 5px;
 }
+/* SECTION WRAPPER */
+.tutorials {
+    width: 100%;
+    padding: 60px 120px;
+    text-align: center;
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color:#666;
+}
+
+/* 4-COLUMN GRID */
+.tutorials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+/* Fix: keep H2 above grid */
+.tutorials > h2 {
+    grid-column: 1 / -1;
+    color:#666;
+}
+
+/* CARD STYLES */
+.tutorials > div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* CARD IMAGE */
+.tutorials img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* CARD TITLE */
+.tutorials h3 {
+    margin: 10px 0 8px;
+    font-size: 22px;
+    color:#666
+}
+
+/* DESCRIPTION */
+.tutorials p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* RATING BLOCK (image + name) */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.rating img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Stars row */
+.tutorials div > div {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.fa-star {
+    color: #C271FF;
+    font-size: 16px;
+}
+
+/* Duration */
+.tutorials > div p:last-child {
+    font-weight: bold;
+    color: #C271FF;
+    margin-top: 5px;
+}
