@@ -173,33 +173,25 @@ nav img{
     opacity: 0.8;
     margin-top: 5px;
 }
-/* SECTION WRAPPER */
 .tutorials {
     width: 100%;
     padding: 60px 120px;
     text-align: center;
 }
-
 .tutorials h2 {
     font-size: 32px;
     margin-bottom: 40px;
     color:#666;
 }
-
-/* 4-COLUMN GRID */
 .tutorials {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
 }
-
-/* Fix: keep H2 above grid */
 .tutorials > h2 {
     grid-column: 1 / -1;
     color:#666;
 }
-
-/* CARD STYLES */
 .tutorials > div {
     background: #fff;
     padding: 20px;
@@ -207,36 +199,27 @@ nav img{
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     text-align: left;
 }
-
-/* CARD IMAGE */
 .tutorials img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-
-/* CARD TITLE */
 .tutorials h3 {
     margin: 10px 0 8px;
     font-size: 22px;
     color:#666
 }
-
-/* DESCRIPTION */
 .tutorials p {
     color: #666;
     font-size: 14px;
     margin-bottom: 15px;
 }
-
-/* RATING BLOCK (image + name) */
 .rating {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 12px;
 }
-
 .rating img {
     width: 35px;
     height: 35px;
@@ -244,7 +227,6 @@ nav img{
     object-fit: cover;
 }
 
-/* Stars row */
 .tutorials div > div {
     display: flex;
     gap: 5px;
@@ -256,9 +238,57 @@ nav img{
     font-size: 16px;
 }
 
-/* Duration */
+
 .tutorials > div p:last-child {
     font-weight: bold;
     color: #C271FF;
     margin-top: 5px;
+}
+
+.membership{
+    background-color: #0B1B2B;  
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+
+.membership h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+
+.membership h2 span,
+.membership h2 {
+    color: white;
+}
+
+.membership h2 span {
+    color: #C271FF; 
+}
+
+
+.membership > div {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+
+.membership img {
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.membership h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.membership p {
+    color: #A9B6C7;
+    font-size: 15px;
+    line-height: 1.5;
 }
