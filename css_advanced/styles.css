@@ -327,4 +327,34 @@ nav img{
     font-size: 15px;
     line-height: 1.7;
 }
-
+footer {
+    background-color: #071629;
+    padding: 50px 62px;
+    color: white;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-content > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerimg {
+    width: 150px;
+}
+.footer-content i {
+    font-size: 20px;
+    margin-left: 20px;
+    background: white;
+    color: #071629;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-content p {
+    margin-top: 60px;
+    font-size: 12px;
+    color: #5f7c99;
+}
