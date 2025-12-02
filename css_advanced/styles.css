@@ -234,6 +234,7 @@ nav img{
 }
 .fa-star {
     color: #C271FF;
+    display: flex;
     font-size: 16px;
 }
 
@@ -291,3 +292,39 @@ nav img{
     font-size: 15px;
     line-height: 1.5;
 }
+.faq {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    color: black;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+.faq > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+.first-faq-segment,
+.second-faq-segment {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.faq h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.faq div div:nth-child(even) {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
